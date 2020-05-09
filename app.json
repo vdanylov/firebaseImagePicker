@@ -1,0 +1,17 @@
+{
+  "name": "flyerImageUpload",
+  "displayName": "flyerImageUpload",
+  "expo": {
+    "name": "flyerImageUpload",
+    "slug": "flyerImageUpload",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
