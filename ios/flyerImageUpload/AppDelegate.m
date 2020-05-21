@@ -14,6 +14,8 @@
 #import <UMReactNativeAdapter/UMNativeModulesProxy.h>
 #import <UMReactNativeAdapter/UMModuleRegistryAdapter.h>
 
+@import Firebase;
+
 @interface AppDelegate ()
 
 @property (nonatomic, strong) NSDictionary *launchOptions;
@@ -39,6 +41,8 @@
 #endif
 
   [super application:application didFinishLaunchingWithOptions:launchOptions];
+
+  [FIRApp configure];
 
   return YES;
 }
